@@ -1,0 +1,19 @@
+start
+
+input "Guess a number between 1-100"
+
+numGuess = secretNum
+
+input "Enter guess"
+
+if numGuess is < secrestNum then 
+  output "Guess too high"
+
+  if numGuess is > secretNum then 
+    output "Guess too low"
+
+    if numGuess = secretNum then 
+      output "You guessed it!"
+
+end
+    
