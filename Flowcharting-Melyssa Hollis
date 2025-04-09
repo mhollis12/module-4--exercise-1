@@ -1,0 +1,14 @@
+start 
+  input "Enter target word"
+open to random page
+read page
+
+if targetWord is before first word on page then
+  output "Target word is before the first word on this page"
+    turn page backwards
+if targetWord is after last word on page then 
+  output "Target word is after the last word on this page"
+    turn page forwards
+if targetWord is on page then
+   output "Target word found on page"
+end
